@@ -15,7 +15,7 @@ body {
 
 .cartao {
     margin: 1rem 1rem;
-    background-color: aquamarine;
+    background-color: var(--card-front-color);
     height: 20rem;
     flex-grow: 1;
     flex-basis: calc(33% - 6rem);
@@ -27,7 +27,8 @@ body {
 }
 
 .cartao__conteudo h3 {
-    background-color: rgb(153, 242, 213);
+    color: var(--text-color);
+    border: 1px solid var(--text-color);
     text-align: left;
     margin: 0.6rem;
     position: absolute;
