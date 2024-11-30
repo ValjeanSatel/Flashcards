@@ -57,7 +57,6 @@ body {
 }
 
 .cartao__conteudo__resposta p {
-    color: var(--text-color);
     font-weight: 700;
 }
 
