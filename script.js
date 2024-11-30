@@ -40,3 +40,15 @@ criaCartao (
     "At 100°"
 )
 
+criaCartao (
+    "História",
+    "Quando ocorreu a Noite dos Cristais?",
+    "Ocorreu nos dias 9 e 10 de novembro de 1938"
+)
+
+criaCartao (
+    "Biologia",
+    "O que é Abiogenese?",
+    "Teoria da origem da vida que dizia que alguns seres não vivos possuiam princípios ativos capazes de gerar outros seres"
+)
+
