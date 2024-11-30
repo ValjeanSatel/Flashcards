@@ -11,6 +11,10 @@ body {
 
 #container {
     display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    padding: 4rem;
+    gap: 3rem;
 }
 
 .cartao {
@@ -55,7 +59,7 @@ body {
     font-weight: 700;
 }
 
-.cartao:hover .cartao__conteudo {
+.cartao.active .cartao__conteudo {
     transform: rotateY(180deg);
 }
 
@@ -71,25 +75,13 @@ body {
     transform: rotateY(180deg);
 }
 
-
-
-
-
-
-
-
-
-
-
-
-
 footer {
     background-color:rgb(11, 10, 10);
     color: white;
     position: fixed;
     bottom: 0;
     width: 100%;
-    height: 1rem;
+    height: 3rem;
 }
 
 footer p {
